@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f3eb">
+<title>RealityCheck AI — Build on evidence</title>
+<meta name="description" content="Six AI agents. One honest verdict. Validate your next startup idea with RealityCheck AI.">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('rc_theme')||'light'}catch{}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles.css">
+</head><body>
+<div id="toast" class="toast" role="status"></div>
+<div id="landing-root"><main class="landing-page"><header class="landing-nav"><a href="#top" class="landing-brand"><span class="landing-logo">✳</span><span>realitycheck<span class="brand-ai">.ai</span></span></a><div class="landing-actions"><button class="button button-ghost" data-auth="login">Log in</button><button class="button button-dark" data-auth="signup">Get started ↗</button></div></header><section class="landing-hero"><div class="landing-copy"><div class="landing-eyebrow">THE ANTI-HYPE STARTUP CHECK</div><h1>Make room for<br><em>the honest answer.</em></h1><p class="landing-lede">Your idea deserves more than just AI-generated praise. Six sharp perspectives help you pressure-test the plan—and find the smartest next move.</p><div class="landing-cta-row"><button class="button button-dark button-large" data-auth="signup">Put your idea to the test ↗</button><button class="landing-login-link" data-auth="login">Already have an account? <b>Log in</b></button></div></div></section></main></div>
+<div class="app-shell hidden">
+<aside class="sidebar" id="sidebar">
+ <a href="#home" class="brand"><span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 28 10v12L16 29 4 22V10z"/><path d="M10 19.5 15 12l2.5 4 4.5-3"/><circle cx="22" cy="13" r="1.7"/></svg></span><span>realitycheck<span class="brand-ai">.ai</span></span></a>
+ <div class="workspace-label">WORKSPACE <span class="workspace-dot"></span></div>
+ <nav class="main-nav" aria-label="Main navigation">
+  <button class="nav-link active" data-page="home"><span class="nav-icon">⌂</span>Overview</button>
+  <button class="nav-link" data-page="new"><span class="nav-icon">＋</span>Validate an idea</button>
+  <button class="nav-link" data-page="reports"><span class="nav-icon">▤</span>My reports<span id="report-count" class="nav-count">—</span></button>
+  <button class="nav-link" data-page="advisor"><span class="nav-icon">✳</span>AI advisor<span class="live-dot"></span></button>
+  <button class="nav-link" data-page="plans"><span class="nav-icon">◷</span>Plans & usage</button>
+ </nav>
+ <div class="sidebar-lower"><div class="upgrade-card"><div class="sparkle">✦</div><strong>Clarity is a superpower.</strong><p>Six perspectives. One smarter next step.</p><button class="text-action" data-page="new">Run your first check <span>↗</span></button><div class="upgrade-orb"></div></div>
+  <div class="profile" id="profile"><div class="avatar" id="avatar">?</div><div class="profile-info"><b id="user-name">Guest workspace</b><small id="user-email">Sign in to save reports</small></div><button id="profile-menu" class="icon-button profile-menu" aria-label="Account menu">···</button></div>
+ </div>
+</aside>
+<main class="main-area">
+<header class="topbar"><button id="mobile-menu" class="icon-button mobile-menu" aria-label="Toggle menu">☰</button><div class="breadcrumb"><span>Workspace</span><span class="crumb-sep">/</span><b id="page-title">Overview</b></div><div class="top-actions"><button class="theme-toggle" data-theme-toggle aria-label="Switch to dark theme">☾ <span>Dark</span></button><button class="credit-badge" id="credit-badge" data-page="plans">5 review credits</button><span class="secure-label"><span class="secure-icon">◈</span> Private workspace</span><button class="top-avatar" id="top-avatar" aria-label="Account">?</button></div></header>
+<div id="view" class="view"></div>
+</main>
+</div>
+<div id="modal-root"></div>
+<script src="/app.js" defer></script>
+</body></html>
